@@ -4,6 +4,7 @@ import { Tecnología } from './components/tecnologia/Tecnología.jsx'
 import { PracticaSupervisada } from './components/practica-supervisada/PracticaSupervisada.jsx'
 
 export const routes = [
+    {path: '/', element: <Home/>},
     {path: '/home', element: <Home/>},
     {path: '/taller', element: <Taller/>},
     {path: '/tecnologia', element: <Tecnología/>},
